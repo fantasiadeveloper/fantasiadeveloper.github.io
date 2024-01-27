@@ -31,4 +31,11 @@ h1 {
 .signature {
     margin-top: 30px;
     text-align: right;
-      }
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}
