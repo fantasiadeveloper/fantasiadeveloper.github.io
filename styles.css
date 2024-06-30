@@ -4,7 +4,6 @@ body {
     background-color: #10162f; 
     color: white;
 }
-
 header {
     z-index: 0;
     display: flex;
@@ -12,6 +11,12 @@ header {
     align-items: center;
     padding: 20px 40px;
     background-color: #10162f;
+}
+@media (max-width: 768px) {
+    /* Gaya untuk layar kecil */
+    body {
+        font-size: 14px;
+    }
 }
 
 
